@@ -127,8 +127,8 @@ If you would like to train a "Frequently Bought Together" model:
 
 
 ### Catalog File Schema
-The catalog file contains information about the items you are offering to your customer.
-The catalog data should follow the following format:
+The catalog file is a CSV (comma separated value) file that contains information about the items you are offering to your customer. 
+The catalog data should follow the following format:<br/>
 
 * Without features - `<Item Id>,<Item Name>,<Item Category>[,<Description>]`
 * With features - `<Item Id>,<Item Name>,<Item Category>,[<Description>],<Features list>`
